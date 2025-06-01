@@ -1,5 +1,5 @@
 
-const API_KEY = "https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}"; // Replace with your actual API key
+const API_KEY = "b0cd2d762a7e7bae12fe6d930c7ac7e5"; // Replace with your actual API key
 const BASE_URL = "https://api.openweathermap.org/data/2.5/weather";
 
 
