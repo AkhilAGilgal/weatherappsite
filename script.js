@@ -1,5 +1,5 @@
 
-const API_KEY = "b0cd2d762a7e7bae12fe6d930c7ac7e5"; // Replace with your actual API key
+const API_KEY = "b0cd2d762a7e7bae12fe6d930c7ac7e5";
 const BASE_URL = "https://api.openweathermap.org/data/2.5/weather";
 
 
@@ -9,7 +9,7 @@ const toggleUnitsBtn = document.getElementById("toggleUnits");
 const weatherInfo = document.getElementById("weatherInfo");
 
 
-let currentUnits = "metric"; // Default to Celsius
+let currentUnits = "metric"; 
 
 
 async function fetchWeather(city, units = "metric") {
